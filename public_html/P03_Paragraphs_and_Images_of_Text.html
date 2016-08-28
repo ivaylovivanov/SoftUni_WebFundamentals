@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+Problem 3. Paragraphs and Images of Text
+Create an HTML page holding a few headings, each with a few paragraphs of text. 
+Insert a few images. Play with the old formatting tags <b>, <i>, <u>, <strong>, 
+<em>, <sup>, <sub>, <pre>, <br /> etc. Ensure you have <doctype>, <html>, <head>,
+<title> and <body>.
+-->
+<html>
+    <head>
+        <title>Problem 3. Paragraphs and Images of Text</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>This is a big H1 Heading and it is the 1<sup>st</sup> one in this article.</h1>
+        <p>
+            <img src="Image_1.png" alt="Image 1" /><br />
+            This is a paragraph following heading H1. It does not have anything else in it.  
+        </p>
+        <p>
+            This is another paragraph. In here we have put some <b>bold</b> text, <br/>some <i>italic</i> and some <u>underlined</u> text as well.
+        </p>
+        <h2>This is a smaller H2 Heading and it is the 2<sub>nd</sub> one in this article</h2>
+        <p>
+            <img src="Image_2.png" alt="Image 2"/><br />
+            In the article of this heading we have some <strong>strong</strong> text, as well as some <em>emphasized</em> one.
+        </p>
+        <h3>This is an H3 Heading and it is the 3<sub>rd</sub> heading in the article</h3>
+        <p>
+            <img src="Image_3.png" alt="Image 3"/><br />
+            This is an exampple of usage of the pre, code:
+        </p>
+        
+        <pre>
+            <code>
+                function Panel(element, canClose, closeHandler) {
+                    this.element = element;
+                    this.canClose = canClose;
+                    this.closeHandler = function () { if (closeHandler) closeHandler() };
+                }
+            </code>
+            <samp>
+                This is an example of computer output, through the "samp" element.
+            </samp>
+        </pre>
+    </body>
+</html>
