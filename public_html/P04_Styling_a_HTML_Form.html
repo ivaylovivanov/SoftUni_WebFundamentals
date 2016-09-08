@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Problem 4. Styling a HTML Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/P04.css" type="text/css">
+    </head>
+    <body>
+        <form id="buyForm">
+            <section class="info">
+                <h3 class="heading">Step 1: Your Details</h3>
+                <div class="input_container">Name</div>
+                <div class="input_container">Email</div>
+                <div class="input_container">Phone</div>
+            </section>
+            
+            <section class="info">
+                <h3 class="heading">Step 2: Delivery address</h3>
+                <div class="input_container address_container">Address</div>
+                <div class="input_container">Post code</div>
+                <div class="input_container">Country</div>
+            </section>
+            
+            <section class="info">
+                <h3 class="heading">Step 3: Card Details</h3>
+                <div class="input_container card_container">
+                    Card Type<br/>
+                    <div class="card_type_container">
+                        <input type="radio" name="card_type" id="card_type_1" value="1"/>
+                        <label for="card_type_1">
+                            <img src="assets/images/visa.png">
+                            VISA
+                        </label>
+                    </div>
+                    <div class="card_type_container">
+                        <input type="radio" name="card_type" id="card_type_2" value="2"/>
+                        <label for="card_type_2">
+                            <img src="assets/images/amex.png">
+                            AmEx
+                        </label>
+                    </div>
+                    <div class="card_type_container mastercard">
+                        <input type="radio" name="card_type" id="card_type_3" value="3"/>
+                        <label for="card_type_3">
+                            <img src="assets/images/master_card.png">
+                            Mastercard
+                        </label>
+                    </div>
+                </div>
+                <div class="input_container">Card Number</div>
+                <div class="input_container">Security Code</div>
+                <div class="input_container">Name on card</div>
+            </section>
+            <input type="submit" id="form_submit" value="BUY IT!"/>
+            
+            
+            <input type="text" name="name" id="name" placeholder="First and Last name"/>
+            <input type="email" name="email" id="email" placeholder="example@domain.com"/>
+            <input type="text" name="phone" id="phone" placeholder="eg. +447500000000"/>
+            
+            <textarea name="address" id="address"></textarea>
+            <input type="text" name="post_code" id="post_code"/>
+            <input type="text" name="country" id="country"/>
+            
+            <input type="text" name="card_number" id="card_number"/>
+            <input type="text" name="security_code" id="security_code"/>
+            <input type="text" name="name_on_card" id="name_on_card" placeholder="exact name as on the card"/>
+        </form>
+        
+    </body>
+</html>
