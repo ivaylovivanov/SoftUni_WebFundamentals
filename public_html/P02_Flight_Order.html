@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Problem 2. Flight Order</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="assets/css/P02.css"/>
+    </head>
+    <body style="margin: 0px; padding: 0px;">
+        <form id="flight_order_form">
+            <h2 class="heading">FLIGHT ORDER</h2>
+            <div class="panel">
+                <div class="row">
+                    <label>From</label>
+                </div>
+                <div class="row">
+                    <select class="city" name="city_from" id="city_from">
+                        <option value="0">Enter a city</option>
+                        <option value="1">Sofia</option>
+                        <option value="2">Plovdiv</option>
+                        <option value="3">Varna</option>
+                        <option value="4">Bourgas</option>
+                        <option value="5">Stara Zagora</option>
+                    </select>
+                </div>
+                <div class="row">&nbsp;</div>
+                <div class="row"><label>Departure date</label></div>
+                <div class="row"><input type="text" placeholder="DD.MM.YYYY" value="09.06.2014" name="d_date" id="d_date"/></div>
+                <div class="row"><label>Return date</label></div>
+                <div class="row"><input type="text" placeholder="DD.MM.YYYY" value="13.06.2014" name="r_date" id="r_date"/></div>
+                <div class="row">
+                    <label for="teens" id="num_teens">12+</label>
+                    <label for="children" id="num_children">2 - 12</label>
+                    <label for="infants" id="num_infants">0 - 2</label></div>
+                <div class="row">
+                    <input type="number" name="teens" id="teens" placeholder="0" value="0" min="0"/>
+                    <input type="number" name="children" id="children" placeholder="0" value="0" min="0"/>
+                    <input type="number" name="infants" id="infants" placeholder="0" value="0" min="0"/>
+                </div>
+                <div class="row"></div>
+            </div>
+            <div class="panel">
+                <div class="row">
+                    <label>To</label>
+                </div>
+                <div class="row">
+                    <select class="city" name="city_to" id="city_to">
+                        <option value="0">Enter a city</option>
+                        <option value="1">Sofia</option>
+                        <option value="2">Plovdiv</option>
+                        <option value="3">Varna</option>
+                        <option value="4">Bourgas</option>
+                        <option value="5">Stara Zagora</option>
+                    </select>
+                </div>
+                <div class="row"><input type="checkbox" name="direct" id="direct"/><label for="direct" id="label_direct">Prefer directs</label></div>
+                <div class="row"><label>Time interval</label></div>
+                <div class="row">
+                    <input type="time" value="00:20" name="d_from_time" id="d_from_time"/>
+                    <input type="time" value="05:00" name="d_to_time" id="d_to_time"/>
+                </div>
+                <div class="row"><label>Time interval</label></div>
+                <div class="row">
+                    <input type="time" value="16:00" name="r_from_time" id="r_from_time"/>
+                    <input type="time" value="22:00" name="r_to_time" id="r_to_time"/>
+                </div>
+                <div class="row"><label>Choose class</label></div>
+                <div class="row">
+                    <select class="city" name="class" id="class">
+                        <option value="0">Choose class</option>
+                        <option value="1" selected="selected">Economy</option>
+                        <option value="2">First</option>
+                        <option value="3">Business</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Search" id="search"/>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+#flight_order_form {
+  background-color: #FFC0CB;
+  width: 538px;
+  height: 384px;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid black;
+}
+.heading {
+  font-style: italic;
+  text-align: center;
+  margin: 10px;
+}
+.panel {
+  width: 45%;
+  float: left;
+  padding: 10px;
+}
+.city {
+  width: 100%;
+  height: 26px;
+}
+label:not(#label_direct) {
+  font-style: italic;
+  position: relative;
+  top: 10px;
+}
+#label_direct {
+  font-style: italic;
+}
+input[type="text"] {
+  width: 100%;
+  height: 20px;
+}
+#teens,
+#children,
+#num_teens,
+#num_children {
+  width: 30%;
+  height: 20px;
+  float: left;
+  border: 1px solid transparent;
+}
+#infants,
+#num_infants {
+  width: 30%;
+  height: 20px;
+  float: right;
+  border: 1px solid transparent;
+}
+#children,
+#num_children {
+  margin-left: 9px;
+}
+#search {
+  background: #DDDDDD;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(bottom, #DDDDDD, #F7F7F7);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, #DDDDDD, #F7F7F7);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, #DDDDDD, #F7F7F7);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, #DDDDDD, #F7F7F7);
+  /* Standard syntax */
+  width: 100%;
+  height: 30px;
+  border: 1px solid #929292;
+}
+input[type="time"] {
+  width: 46%;
+  height: 20px;
+  padding: 1px;
+}
+input[type="time"]:last-child {
+  float: right;
+}
+.num_children {
+  float: right;
+  width: 30%;
+  padding: 0px;
+}
+.row {
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+  /*border: 1px solid black;*/
+}
+/*# sourceMappingURL=P02.css.map */
