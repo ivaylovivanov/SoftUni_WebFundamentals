@@ -1,0 +1,108 @@
+body {
+  padding: 10px;
+  margin: 0px;
+  background-color: #EEEEEE;
+}
+#wrapper {
+  padding: 10px;
+  margin: 0 auto;
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px #DDDDDD;
+  font-family: Tahoma, Helvetica, sans-serif;
+  background-color: white;
+}
+#account_form {
+  margin: 0 auto;
+  border: 0px;
+  width: 80%;
+  height: 400px;
+  font-family: inherit;
+  border-top: 2px solid #DFDFDF;
+}
+h3 {
+  text-align: center;
+  font-size: 24px;
+}
+#intro {
+  margin: 0px 10px 10px 10px;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 38%;
+  height: 100%;
+}
+.content {
+  height: 60px;
+}
+#register_panel .content:first-child,
+#login_panel .content:first-child {
+  height: 25px;
+  margin-top: 25px;
+}
+.error {
+  height: 20px;
+  color: red;
+  font-size: 10px;
+  visibility: hidden;
+}
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+  padding: 10px 35px 10px 10px;
+  width: 100%;
+  background-image: url(../images/P09/ok.png);
+  background-repeat: no-repeat;
+  background-position: 98% 7px;
+  border-radius: 5px;
+  border: 2px solid #E5E5E5;
+  font-size: inherit;
+}
+#register_button {
+  border: 2px solid #F0F0F0;
+  width: 140px;
+  height: 35px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  background-color: #F0F0F0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px #DDDDDD;
+}
+#login_button {
+  border: 2px solid #F0F0F0;
+  width: 80px;
+  height: 35px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  background-color: #F0F0F0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px #DDDDDD;
+}
+#login_panel {
+  margin-left: 105px;
+}
+#password,
+#rpassword,
+#lpassword {
+  background-image: url(../images/P09/no.png);
+}
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#register_button:hover,
+#login_button:hover {
+  cursor: pointer;
+  background-color: #AFDF69;
+  border-color: #AFDF69;
+}
+/*# sourceMappingURL=P09.css.map */
