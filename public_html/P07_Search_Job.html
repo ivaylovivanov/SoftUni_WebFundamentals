@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Problem 7. *Search Job</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="assets/css/P07.css"/>
+    </head>
+    <body>
+        <div id="wrapper">
+            <nav>
+                <ul id="navigation">
+                    <li class="nav_item" id="search_item"><div class="menu_item">Search Business</div></li>
+                    <li class="nav_item" id="cat_item"><div class="menu_item">Business Categories</div></li>
+                    <li class="nav_item" id="location_item"><div class="menu_item">Recent Locations</div></li>
+                    <li class="nav_item" id="agents_item"><div class="menu_item">Agents Located</div></li>
+                </ul>
+            </nav>
+            
+            <form id="search_form">                
+                <div class="column">
+                    <div class="content">
+                        <div class="label">Business Name</div>
+                        <div class="error">Please provide a valid name</div>
+                        <input class="input" type="text" id="b_name" name="b_name" placeholder="enter a name">
+                    </div>
+                    
+                    <div class="content">
+                        <div class="label">Employers</div>
+                        <div class="error">Please provide a valid number</div>
+                        <input class="input" type="number" id="employers" name="employers" placeholder="1000-5000">
+                    </div>                    
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <div class="label">Country</div>
+                        <div class="error">Please provide a valid country</div>
+                        <input class="input" type="text" id="b_country" name="b_country" placeholder="search by country">
+                    </div>
+                    
+                    <div class="content">
+                        <div class="label">Startup Date</div>
+                        <div class="error">Please provide a valid date</div>
+                        <input class="input" type="date" id="date" name="date">
+                    </div>                    
+                </div>
+                
+                <div class="column">
+                    <div class="content">
+                        <div class="label">City / State</div>
+                        <div class="error">Please provide a valid city / state</div>
+                        <input class="input" type="text" id="city" name="city" placeholder="search by city or state">
+                    </div>
+                    
+                    <div class="content">
+                        <div class="label">Job Opportunity</div>
+                        <div class="error">Please provide a valid name</div>
+                        <input class="input" type="text" id="job" name="job" placeholder="any">
+                    </div>                    
+                </div>
+                
+                <div class="column">
+                    <div class="content">
+                        <div class="label">ZIP / Postal Code</div>
+                        <div class="error">Please provide a valid postal code</div>
+                        <input class="input" type="text" id="pcode" name="pcode" placeholder="enter a postal code">
+                    </div>
+                    
+                    <div class="content">
+                        <div class="label">&nbsp;</div>
+                        <div class="error">&nbsp;</div>
+                        <input class="input" type="button" id="search" value="LET'S FIND YOUR JOB">
+                    </div>                    
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
